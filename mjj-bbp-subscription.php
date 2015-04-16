@@ -36,10 +36,6 @@ function mjj_get_salt() {
 	
 }
 
-function do_nothing(){
-	
-}
-
 
 function mjj_not_a_nonce( $uid, $tid ){
 //this is used for a quick check that the url hasn't been tampered with. It's not dependent on time or whether or not a user is logged in.	
