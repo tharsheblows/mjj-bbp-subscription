@@ -6,4 +6,6 @@ The email sends to one subscriber at a time but queued in a cron job. The emails
 
 This doesn't handle forum subscriptions because I don't use them (I just use topic subscriptions) but you could add them in if you wanted.
 
-### use this branch
+### a note on using this branch:
+
+If you switch to this branch from the other, your unsubscribe links sent using the previous version won't work.
