@@ -159,7 +159,7 @@ class MJJ_BBP_Subscriptions{
 			$nn_link 	   = self::not_a_nonce( $user_id, $topic_id );
 			$unsubscribe_link = $topic_url . '?uid=' . $user_id . '&tid=' . $topic_id . '&nn=' . $nn_link;
 
-			$user_sub_link = bbp_get_user_profile_url( $user_id ) . 'subscriptions/';
+			$user_sub_link = bbp_get_subscriptions_permalink( $user_id );
 
 			// Don't send notifications to the person who made the post
 			if ( !empty( $reply_author ) && (int) $user_id === (int) $reply_author )
